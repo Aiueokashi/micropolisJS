@@ -110,7 +110,7 @@ var Simulation = EventEmitter(function (gameMap, gameLevel, speed, savedGame) {
   if (savedGame) {
     this.load(savedGame);
   } else {
-    this.budget.setFunds(20000);
+    this.budget.setFunds(99999999);
     this._census.totalPop = 1;
   }
 
